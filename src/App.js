@@ -1,15 +1,16 @@
+// App.js
 
+// React Responsive Layout with Tailwind CSS
 import React from "react";
-import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50">
       {/* Header Section */}
       <header className="w-full bg-blue-600 text-white py-4 px-6 flex justify-between items-center">
         <h1 className="text-lg font-bold">Untitled</h1>
         <nav className="hidden md:flex space-x-4">
-          <a href="#" className="hover:underline">Home</a>
+          <a href="#home" className="hover:underline">Home</a>
           <a href="#features" className="hover:underline">Features</a>
           <a href="#faq" className="hover:underline">FAQs</a>
         </nav>
@@ -17,7 +18,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center text-center py-16 px-6">
+      <section id="home" className="flex flex-col items-center text-center py-16 px-6">
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
           Beautiful analytics to grow smarter
         </h2>
@@ -50,12 +51,12 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-blue-600 text-white py-6 w-full text-center">
+      <footer id="faq" className="bg-blue-600 text-white py-6 w-full text-center">
         <p>&copy; 2077 zysktechnologies. All rights reserved.</p>
       </footer>
     </div>
   );
-}
+};
 
+// Export the component as default
 export default App;
-        
