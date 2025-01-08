@@ -4,6 +4,7 @@
   "private": false,
   "dependencies": {
     "lru-cache": "^10.4.3",
+    "minimatch": "^9.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
