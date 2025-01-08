@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "private": false,
   "dependencies": {
+    "lru-cache": "^10.4.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
   "engines": {
-  "node": "18.x"
-},
+    "node": "18.x"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
