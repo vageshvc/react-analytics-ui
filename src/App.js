@@ -8,7 +8,7 @@ const App = () => {
     <div className="min-h-screen flex flex-col items-center bg-gray-50">
       {/* Header Section */}
       <header className="w-full bg-blue-600 text-white py-4 px-6 flex justify-between items-center">
-        <h1 className="text-lg font-bold">Untitled</h1>
+        <h1 className="text-lg font-bold">Zysk Technologies</h1>
         <nav className="hidden md:flex space-x-4">
           <a href="#home" className="hover:underline">Home</a>
           <a href="#features" className="hover:underline">Features</a>
