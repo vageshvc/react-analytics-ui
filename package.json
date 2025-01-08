@@ -1,7 +1,7 @@
 {
   "name": "react-responsive-design",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -13,8 +13,8 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "start": "react-scripts start --openssl-legacy-provider",
-    "build": "react-scripts build --openssl-legacy-provider",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test"
   },
   "browserslist": {
